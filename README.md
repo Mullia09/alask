@@ -24,3 +24,15 @@ Initialize the database and start the application:
 ```bash
 python3 -m volunteer_app.main
 ```
+
+## Document Control System
+
+For a minimal digital document control workflow with simple reward points, use
+`volunteer_app/doc_control.py`.
+
+```bash
+python3 volunteer_app/doc_control.py
+```
+
+The script lets you register documents with a generated unique code, list the
+stored records and awards a small point value for each registration.
